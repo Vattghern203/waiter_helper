@@ -1,0 +1,29 @@
+.btn {
+
+    &,
+    &:link,
+    &:visited {
+        background-color: #67e8f9;
+        color: white;
+        padding: 1.5rem 4rem;
+        border-radius: 1rem;
+
+        text-decoration: none;
+        outline: none;
+        border: none;
+
+        cursor: pointer;
+
+        transition: all ease .2s;
+    }
+
+    &:hover {
+        color: darken($color-white-3, 2);
+        background-color: darken($light-blue, 10);
+    }
+
+    &:active {
+        transform: translateY(.2rem);
+    }
+    
+}

@@ -1,0 +1,28 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    gap: 2rem;
+    
+    & * {
+        transition: all ease-in 10s;
+    }
+
+    &__heading {
+        font-size: 5rem;
+        transform-origin: top right;
+        animation: moveInFromLeft 2.3s 1 backwards;
+        transition: all ease-in 10s;
+    }
+
+    &__input {
+        width: 80%;
+        
+    }
+
+    &__btn {
+        transform-origin: top right;
+        animation: moveInFromLeft 3.5s 1;
+    }
+}
