@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/img/react.svg'
-import { Menu } from './components/Menu'
+
+import { Search } from './components/Search/Search'
+import { Header } from './components/Header/Header'
 //import './App.css'
 import './assets/css/main.css'
 
@@ -8,7 +10,11 @@ function App() {
 
   return (
     <div className="App">
-      <Menu/>
+
+      <Header/>
+
+      <Search/>
+      
     </div>
   )
 }

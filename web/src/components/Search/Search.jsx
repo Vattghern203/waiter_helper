@@ -1,4 +1,4 @@
-export function Menu() {
+export function Search() {
     return (
         <div className="menu">
 

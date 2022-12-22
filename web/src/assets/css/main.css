@@ -73,6 +73,7 @@ body {
 }
 
 .input {
+  font-size: 1.75rem;
   outline: none;
   border: none;
   padding: 1.25rem 1.35rem;
@@ -88,9 +89,6 @@ body {
   align-self: center;
   gap: 2rem;
 }
-.menu * {
-  transition: all ease-in 10s;
-}
 .menu__heading {
   font-size: 5rem;
   transform-origin: top right;
@@ -99,9 +97,11 @@ body {
 }
 .menu__input {
   width: 80%;
+  animation: moveInFromRight 2s 1;
+  transition: all ease-in 8s;
 }
 .menu__btn {
-  transform-origin: top right;
+  transform-origin: bottom right;
   animation: moveInFromLeft 3.5s 1;
 }
 
